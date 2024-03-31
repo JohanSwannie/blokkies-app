@@ -3,7 +3,7 @@ import Pixel from "./Pixel";
 const Pixels = () => {
   const pixies = [];
   for (let i = 0; i < 1620; i++) {
-    pixies.push(<Pixel />);
+    pixies.push(<Pixel key={i} />);
   }
   return (
     <div
