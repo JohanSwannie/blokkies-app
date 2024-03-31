@@ -10,7 +10,7 @@ const Pixel = () => {
       style={{
         width: "1.4rem",
         height: "1.4rem",
-        border: "1px solid #0fffff",
+        border: "1px solid #fffeee",
         backgroundColor: `${pixelColor}`,
       }}
     ></div>
