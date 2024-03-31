@@ -8,6 +8,7 @@ const colorsToSelect = [
   "red",
   "peachpuff",
   "yellow",
+  "navy",
   "pink",
   "green",
   "lightgray",
