@@ -1,8 +1,6 @@
-import useColor from "../contexts/ColorContext";
 import Pixel from "./Pixel";
 
 const Pixels = () => {
-  const { color } = useColor();
   const pixies = [];
   for (let i = 0; i < 1620; i++) {
     pixies.push(<Pixel />);
